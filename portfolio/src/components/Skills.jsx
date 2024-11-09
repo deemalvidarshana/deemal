@@ -11,7 +11,19 @@ const Skills = () => {
           <p>Technologies : <br/> MERN Stack,<br/>HTML/CSS,JavaScript</p>
           <a href="#" className="btn">Read More</a>
         </div>
-        {/* Add other skills boxes */}
+        <div className="skills-box">
+          <i className="fa-solid fa-palette"></i>
+          <h3>UI/UX Designing</h3>
+          <p>Technologies : HTML/CSS,Bootstrap,JavaScript, <br/> ReactJs,Photoshop,CorelDraw</p>
+          <a href="#" className="btn">Read More</a>
+        </div>
+        <div className="skills-box">
+          <i className="fa-solid fa-laptop-code"></i>
+          <h3>Programing</h3>
+          <p>Technologies : <br/> C/C++,Java,Python</p> <br/>
+          <a href="#" className="btn">Read More</a>
+        </div>
+
       </div>
     </section>
   );

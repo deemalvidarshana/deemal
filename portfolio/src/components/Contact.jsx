@@ -13,13 +13,18 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.send('service_q7mrrw2', 'template_hbzb2ii', {
-      name: formData.name,
-      email: formData.email,
-      mobile: formData.mobile,
-      subject: formData.subject,
-      message: formData.message
-    })
+    emailjs.send(
+      'service_9g3bo4s',            // Service ID
+      'template_c36bd6q',           // Template ID
+      {
+        name: formData.name,
+        email: formData.email,
+        mobile: formData.mobile,
+        subject: formData.subject,
+        message: formData.message
+      },
+      '3eFIbhM3mMIDdxw5s'           // Public Key
+    )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
       alert('Message sent successfully!');

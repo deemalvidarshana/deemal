@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import ScrollReveal from 'scrollreveal';
 import Typed from 'typed.js';
 
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 const App = () => {
   useEffect(() => {
     ScrollReveal({

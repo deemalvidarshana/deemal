@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImage from '../assets/profiledp.png';
 
 const Home = () => {
   return (
@@ -32,7 +33,7 @@ const Home = () => {
         <a href="#" className="btn">Download CV</a>
       </div>
       <div className="home-img">
-        <img src="/profiledp.png" alt="profile" />
+        <img src={profileImage} alt="profile" />
       </div>
     </section>
   );
