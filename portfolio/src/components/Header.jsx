@@ -18,8 +18,9 @@ const Header = () => {
       <nav className={`navbar ${isActive ? 'active' : ''}`}>
         <a href="#home" className="active">Home</a>
         <a href="#about">About</a>
+        <a href="#achievement">Achievement</a>
         <a href="#Skills">Skills</a>
-        <a href="#Portfolio">Portfolio</a>
+        <a href="#Portfolio">projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
