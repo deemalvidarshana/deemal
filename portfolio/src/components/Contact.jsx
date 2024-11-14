@@ -51,7 +51,7 @@ const Contact = () => {
 
   return (
     <section className="Contact" id="Contact">
-      <h2 className="heading">Contact <span>Me</span></h2>
+      <h2 className="heading"><br/>Contact <span>Me</span></h2>
       <form onSubmit={handleSubmit}>
         <div className="input-box">
           <input

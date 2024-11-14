@@ -9,9 +9,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <button className="logo" onClick={() => window.scrollTo(0, 0)}>
-        ItzMePortfolio
-      </button>
+      <a href="#" className="logo">ItzMePortfolio</a>
       <i 
         className={`fa-solid ${isActive ? 'fa-x' : 'fa-bars'}`} 
         id="menu-icon"
@@ -23,7 +21,7 @@ const Header = () => {
         <a href="#achievement">Achievement</a>
         <a href="#Skills">Skills</a>
         <a href="#Portfolio">Projects</a>
-        <a href="#Contact">Contact</a>
+        <a href="#Contact"> Contact</a>
       </nav>
     </header>
   );

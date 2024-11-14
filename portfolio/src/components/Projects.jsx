@@ -19,7 +19,7 @@ const Projects = () => {
           <div className="portfolio-layer">
             <h4>Image to Text converter</h4>
             <p>"OCR Image To Text Converter" offers seamless text extraction from images. With real-time progress tracking and Tesseract.js integration, digitizing documents is easy.</p>
-            <a href="https://techtinkerspace.me/">
+            <a href="https://github.com/deemalvidarshana/OCR-Image-To-Text">
               <i className="fa-solid fa-up-right-from-square"></i>
             </a>
           </div>
