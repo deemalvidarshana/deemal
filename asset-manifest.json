@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/deemal/static/css/main.079a510c.css",
+    "main.js": "/deemal/static/js/main.3e77aae1.js",
+    "static/media/bot.jpg": "/deemal/static/media/bot.3954e8b433f3aa4ff35b.jpg",
+    "static/media/profiledp.png": "/deemal/static/media/profiledp.ca78b603b0f87dd9af0a.png",
+    "static/media/mail.jpg": "/deemal/static/media/mail.8c6cfaf6b3160256c090.jpg",
+    "static/media/regi.jpg": "/deemal/static/media/regi.21f4d7adf0c7f6286cf0.jpg",
+    "static/media/fa-solid-900.ttf": "/deemal/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/blog.jpg": "/deemal/static/media/blog.2d6cf1b9e6bde224d92b.jpg",
+    "static/media/plant.jpg": "/deemal/static/media/plant.64e17dbcbff284920c5e.jpg",
+    "static/media/text.jpg": "/deemal/static/media/text.b55cbe43b6c906f174c0.jpg",
+    "static/media/algo.jpg": "/deemal/static/media/algo.895f730d77a1e634bd3a.jpg",
+    "static/media/fa-brands-400.ttf": "/deemal/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/vlc.jpg": "/deemal/static/media/vlc.a679a7b4fee6fb339e1f.jpg",
+    "static/media/fa-solid-900.woff2": "/deemal/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/aboutpic.png": "/deemal/static/media/aboutpic.1be0ab8f3de5ba2aced6.png",
+    "static/media/store.jpg": "/deemal/static/media/store.2f02d741824a64618af8.jpg",
+    "static/media/fa-brands-400.woff2": "/deemal/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/reader.jpg": "/deemal/static/media/reader.2503a7731f684e80d7ac.jpg",
+    "static/media/mora.jpg": "/deemal/static/media/mora.ab5bfa8226e2ef5e008f.jpg",
+    "static/media/fa-regular-400.ttf": "/deemal/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/IEEE.jpg": "/deemal/static/media/IEEE.af4db44b349716f18111.jpg",
+    "static/media/fa-regular-400.woff2": "/deemal/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/deemal/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/deemal/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/deemal/index.html",
+    "main.079a510c.css.map": "/deemal/static/css/main.079a510c.css.map",
+    "main.3e77aae1.js.map": "/deemal/static/js/main.3e77aae1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.079a510c.css",
+    "static/js/main.3e77aae1.js"
+  ]
+}
