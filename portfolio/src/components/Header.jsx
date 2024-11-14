@@ -21,7 +21,7 @@ const Header = () => {
         <a href="#achievement">Achievement</a>
         <a href="#Skills">Skills</a>
         <a href="#Portfolio">projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#Contact">Contact</a>
       </nav>
     </header>
   );
