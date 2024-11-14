@@ -339,26 +339,7 @@ span {
   margin-bottom: space-between;
   flex-wrap: wrap;
 }
-.Contact form .input-box input,
-.Contact form textarea {
-  width: 95%;
-  padding: 1.5rem;
-  font-size: 1.6rem;
-  color: var(--text-color);
-  background: var(--snd-bg-color);
-  border-radius: 0.8rem;
-  margin: 0.7rem 0;
-}
-.Contact form .input-box input {
-  width: 48%;
-}
-.Contact form textarea {
-  resize: none;
-}
-.Contact form .btn {
-  margin-top: 2rem;
-  cursor: pointer;
-}
+
 .footer {
   width: 100%;
   display: flex;
@@ -371,12 +352,36 @@ span {
   border-radius: .8rem;
     
 }
-.Contact form .input-box {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem; 
-    margin-bottom: 1rem; 
-  }
+.Contact h2 {
+  margin-bottom: 3rem;
+}
+.Contact form {
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: space-between;
+  flex-wrap: wrap;
+}
+.Contact form .input-box input,
+.Contact form textarea {
+  width: 95%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  background: var(--snd-bg-color);
+  border-radius: 0.8rem;
+  margin: 0.7rem 0;
+}
+.Contact form .input-box input {
+  width: 49%;
+}
+.Contact form textarea {
+  resize: none;
+}
+.Contact form btn {
+  margin-top: 2rem;
+  cursor: pointer;
+}
 .footer-text {
   font-size: 1.6rem;
 }
@@ -491,12 +496,11 @@ span {
     }
 }
 
-@media (max-width: 768px) {
-    .Contact form .input-box {
-      flex-direction: column;
-    }
-  
-    .Contact form .input-box input {
-      width: 100%; 
-    }
+@media (max-width:450px) {
+  html{
+      font-size: 50%;
   }
+  .Contact form .input-box input{
+      width: 100%;
+  }
+}
