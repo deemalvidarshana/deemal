@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <a href="#" className="logo">Portfolio</a>
+      <a href="#" className="logo">ItzMePortfolio</a>
       <i 
         className={`fa-solid ${isActive ? 'fa-x' : 'fa-bars'}`} 
         id="menu-icon"

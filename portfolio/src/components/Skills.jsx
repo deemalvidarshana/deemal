@@ -7,21 +7,21 @@ const Skills = () => {
       <div className="skills-container">
         <div className="skills-box">
           <i className="fa-solid fa-code"></i>
-          <h3>Web Development</h3>
-          <p>Technologies : <br/> MERN Stack,<br/>HTML/CSS,JavaScript</p>
-          <a href="#" className="btn">Read More</a>
+          <h3>Backend Development</h3>
+          <p>Technologies : <br/>Frameworks: Spring Boot, Flask, Express.js, PHP<br/>Backend Programming: Node.js, Java, Python, PHP <br/>APIs: RESTful APIs with Node.js, Express.js, and PHP<br/>Database Systems: MySQL, MongoDB </p>
+          <a href="https://www.linkedin.com/in/deemal-vidarshana/" className="btn">Read More</a>
         </div>
         <div className="skills-box">
           <i className="fa-solid fa-palette"></i>
-          <h3>UI/UX Designing</h3>
-          <p>Technologies : HTML/CSS,Bootstrap,JavaScript, <br/> ReactJs,Photoshop,CorelDraw</p>
-          <a href="#" className="btn">Read More</a>
+          <h3>Frontend Development</h3>
+          <p>Technologies : <br/> Frontend Frameworks: React.js<br/>Responsive Design: HTML, CSS, and JavaScript,<br/>Project Management Tools: GitHub<br/>Additional Tools & Technologies: Tailwind CSS, Bootstrap, Figma <br/>Photoshop</p>
+          <a href="https://www.linkedin.com/in/deemal-vidarshana/" className="btn">Read More</a>
         </div>
         <div className="skills-box">
           <i className="fa-solid fa-laptop-code"></i>
-          <h3>Programing</h3>
-          <p>Technologies : <br/> C/C++,Java,Python</p> <br/>
-          <a href="#" className="btn">Read More</a>
+          <h3>Programming </h3>
+          <p>Technologies: <br/>Programming: Java, Python, JavaScript, PHP, C++ <br/>AI/ML: TensorFlow, Keras, scikit-learn, PyTorch, LangChain <br/>Cloud: Google Cloud Infrastructure  & Services, Associate Cloud Engineer, Kubernetes</p>
+          <a href="https://www.linkedin.com/in/deemal-vidarshana/" className="btn">Read More</a>
         </div>
 
       </div>
