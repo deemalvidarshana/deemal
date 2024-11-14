@@ -1,5 +1,5 @@
 {
-  "homepage": "https://deemalvidarshana.github.io/My-Portfolio",
+  "homepage": "https://deemalvidarshana.github.io/deemal",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -49,6 +49,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/deemalvidarshana/deemalvidarshana.github.io.git"
+    "url": "https://github.com/deemalvidarshana/deemal.git"
   }
 }
