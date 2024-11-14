@@ -50,7 +50,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="Contact" id="contact">
+    <section className="Contact" id="Contact">
       <h2 className="heading">Contact <span>Me</span></h2>
       <form onSubmit={handleSubmit}>
         <div className="input-box">
