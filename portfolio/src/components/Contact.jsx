@@ -9,12 +9,9 @@ const Contact = () => {
     subject: '',
     message: ''
   });
-  
-  const [loading, setLoading] = useState(false);  // Added loading state
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);  // Set loading to true
 
     emailjs.send(
       'service_9g3bo4s',            // Service ID
@@ -42,9 +39,6 @@ const Contact = () => {
     .catch((error) => {
       console.log('FAILED...', error);
       alert('Error sending message. Please try again later.');
-    })
-    .finally(() => {
-      setLoading(false);  // Reset loading state
     });
   };
 
@@ -104,12 +98,10 @@ const Contact = () => {
           onChange={handleChange}
           required
         ></textarea>
-        <input
-          type="submit"
-          value={loading ? "Sending..." : "Send Message"}  // Loading text
-          className="btn"
-          disabled={loading}  // Disable button when loading
-        />
+        <br />
+        <br />
+        <br />
+        <input type="submit" value="Send Message" className="btn" />
       </form>
     </section>
   );
